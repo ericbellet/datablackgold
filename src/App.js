@@ -4,19 +4,30 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      <div className="topnav">
+        <a href="#home">Home</a>
+        <a href="#news">What we do</a>
+        <a href="#about">About us</a>
+        <a href="#contact">Contact</a>
+      </div>
+   
+      <section className="App-section">
         <p>
-          La bebs es bella.
+          Section
         </p>
-        <a
-          className="App-link"
-          href="https://datablackgold.com"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Click here
-        </a>
-      </header>
+      </section>
+         
+      <content className="App-content">
+        <p>
+          Content
+        </p>       
+      </content>
+
+      <footer className="App-footer">
+        <p>
+          Footer
+        </p>     
+      </footer>
     </div>
   );
 }
