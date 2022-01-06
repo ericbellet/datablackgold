@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="App">
       <div className="topnav">
-        <a href="#home">Home</a>
+        <a href="#home">Home 2</a>
         <a href="#news">What we do</a>
         <a href="#about">About us</a>
         <a href="#contact">Contact</a>
