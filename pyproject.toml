@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "datablackgold"
+version = "0.1.0"
+description = "Hair salon location"
+authors = ["Eric Bellet <ericbellet@hotmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+googlemaps = "^4.5.3"
+pandas = "^1.3.5"
+bs4 = "^0.0.1"
+geocoder = "^1.38.1"
+folium = "^0.12.1"
+matplotlib = "^3.5.1"
+geohash2 = "^1.1"
+polygon-geohasher = "^0.0.1"
+geopandas = "^0.10.2"
+geolib = "^1.0.7"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
